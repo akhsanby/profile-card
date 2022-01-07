@@ -1,0 +1,16 @@
+git config --global user.email "email@gmail.com"
+git config --global user.name "username"
+
+git init
+
+git add .
+git add <namafile>
+
+git commit -m "harus jelas"
+
+git branch -M main
+git branch 
+
+git remote add origin http://.....
+
+git push -u origin main
