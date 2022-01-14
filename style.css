@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/*css reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Kumbh Sans', sans-serif; /*jenis font*/
+	background-color: #1fabb8; /*merubah warna background*/
+	font-size: 18px; /*mengubah ukuran font*/
+}
+
+.container {
+	display: flex; /*merubah element menjadi flexbox*/
+	width: 100vw; /*lebar 100% dari layar*/
+	height: 100vh; /*tinggi 100% dari layar*/
+}
+
+.card {
+	margin: auto; 
+	width: 300px; /*lebar 300px*/
+	border-radius: 10px; /*merubah sudut menjadi tumpul*/
+	overflow: hidden;
+}
+
+.wrapper-blue {
+	background-color: #3ccbd3;
+	height: 120px;
+}
+
+.wrapper-white {
+	background-color: #fff;
+	position: relative;
+}
+
+.wrapper-white > img {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	border: 4px solid white;
+}
+
+.profile-name {
+	text-align: center;
+	padding-top: 60px;
+}
+
+.profile-name .name {
+	display: inline-block;
+	font-weight: 700;
+	color: hsl(229, 23%, 23%);
+}
+
+.profile-name .age {
+	display: inline-block;
+	color: hsl(227, 10%, 46%);
+}
+
+.profile-name > .location {
+	font-size: 0.9rem;
+	padding-top: 0.4rem;
+	padding-bottom: 1.3rem;
+	color: hsl(227, 10%, 46%);
+}
+
+.other-info {
+	border-top: 1px solid #eeeeee;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 1.2rem 0;
+	text-align: center;
+}
+
+.follower {
+	font-weight: 700;
+	font-size: 1rem;
+	color: hsl(229, 23%, 23%);
+}
+
+.follower span {
+	display: block;
+	font-size: 0.7rem;
+	color: hsl(227, 10%, 46%);
+	font-weight: 400;
+}
+
+.like {
+	font-weight: 700;
+	font-size: 1rem;
+	color: hsl(229, 23%, 23%);
+}
+
+.like span {
+	display: block;
+	font-weight: 400;
+	font-size: 0.7rem;
+	color: hsl(227, 10%, 46%);
+}
+
+.photo {
+	font-weight: 700;
+	font-size: 1rem;
+	color: hsl(229, 23%, 23%);
+}
+
+.photo span {
+	display: block;
+	font-weight: 400;
+	font-size: 0.7rem;
+	color: hsl(227, 10%, 46%);
+}
